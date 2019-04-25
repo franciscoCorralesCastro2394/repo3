@@ -6,12 +6,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { DatePipe } from '@angular/common'; 
+import { ComponenteBuenoComponent } from '../../src/app/components/componente-bueno/componente-bueno.component'
+
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    ComponenteBuenoComponent
   ],
   imports: [
     BrowserModule,
